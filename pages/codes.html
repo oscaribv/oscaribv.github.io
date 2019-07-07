@@ -1,0 +1,168 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="" />
+
+  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro|Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="/theme/stylesheet/style.min.css">
+
+  <link rel="stylesheet" type="text/css" href="/theme/pygments/github.min.css">
+  <link rel="stylesheet" type="text/css" href="/theme/font-awesome/css/fontawesome.css">
+  <link rel="stylesheet" type="text/css" href="/theme/font-awesome/css/brands.css">
+  <link rel="stylesheet" type="text/css" href="/theme/font-awesome/css/solid.css">
+
+
+
+
+    <link rel="shortcut icon" href="https://oscaribv.github.io/images/io.jpg" type="image/x-icon">
+    <link rel="icon" href="https://oscaribv.github.io/images/io.jpg" type="image/x-icon">
+
+<!-- Google Analytics -->
+<script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-108009879-1', 'auto');
+  ga('send', 'pageview');
+</script>
+<!-- End Google Analytics -->
+
+    <meta name="author" content="Oscar Barragán" />
+    <meta name="description" content="" />
+<meta property="og:site_name" content="Oscar Barragán's web page"/>
+<meta property="og:type" content="blog"/>
+<meta property="og:title" content="Oscar Barragán's web page"/>
+<meta property="og:description" content=""/>
+<meta property="og:locale" content="en_US"/>
+<meta property="og:url" content=""/>
+
+  <title>Oscar Barragán's web page &ndash; Codes</title>
+
+</head>
+<body>
+  <aside>
+    <div>
+      <a href="">
+        <img src="/theme/img/profile.png" alt="Oscar Barragán" title="Oscar Barragán">
+      </a>
+      <h1><a href="">Oscar Barragán</a></h1>
+
+<p>Ph.D. in Astrophysics</p>
+      <nav>
+        <ul class="list">
+          <li><a href="/pages/about.html#about">ABOUT ME</a></li>
+          <li><a href="/pages/codes.html#codes">Codes</a></li>
+          <li><a href="/pages/contact.html#contact">Contact</a></li>
+          <li><a href="/index.html#home">HOME</a></li>
+          <li><a href="/pages/outreach.html#outreach">Outreach</a></li>
+
+          <li><a href="https://goo.gl/YAi4NV" target="_blank">Publications</a></li>
+          <li><a href="https://orcid.org/0000-0003-0563-0493" target="_blank">ORCID</a></li>
+        </ul>
+      </nav>
+
+      <ul class="social">
+          <li>
+            <a  class="sc-twitter" href="http://twitter.com/oscaribv" target="_blank">
+            <i class="fab fa-twitter">
+            </i>
+          </a></li>
+          <li>
+            <a  class="sc-github" href="http://github.com/oscaribv" target="_blank">
+            <i class="fab fa-github">
+            </i>
+          </a></li>
+          <li>
+            <a  class="sc-linkedin" href="https://www.linkedin.com/in/oscaribv/" target="_blank">
+            <i class="fab fa-linkedin">
+            </i>
+          </a></li>
+          <li>
+            <a  class="sc-instagram" href="https://www.instagram.com/oscaribv" target="_blank">
+            <i class="fab fa-instagram">
+            </i>
+          </a></li>
+      </ul>
+    </div>
+
+
+  </aside>
+  <main>
+
+    <nav>
+      <a href="">    Home
+</a>
+
+      <a href="/categories.html">Categories</a>
+      <a href="/tags.html">Tags</a>
+
+
+    </nav>
+
+<article class="single">
+  <header>
+    
+    <h1 id="codes">Codes</h1>
+  </header>
+  <div>
+<h2><a href="https://github.com/oscaribv/pyaneti">pyaneti</a></h2>
+<p><a href="https://academic.oup.com/mnras/advance-article/doi/10.1093/mnras/sty2472/5094600"><img src="https://img.shields.io/badge/MNRAS-2019,482,1017-purple.svg" alt="MNRAS" /></a>
+<a href="https://arxiv.org/abs/1809.04609"><img src="https://img.shields.io/badge/arXiv-1809.04609-green.svg" alt="arXiv:1809.04609" /></a>
+<a href="http://ascl.net/1707.003"><img src="https://img.shields.io/badge/ascl-1707.003-green.svg" alt="ascl:1707.003" /></a>
+<a href="https://github.com/oscaribv/pyaneti/wiki"><img src="https://img.shields.io/badge/wiki-building-yellow.svg" alt="pyaneti wiki" /></a></p>
+<p>Pyaneti is a multi-planet radial velocity and transit fit software. 
+The code uses Markov chain Monte Carlo (MCMC) methods with a Bayesian approach and a parallelized ensemble 
+sampler algorithm in Fortran which makes the code fast. It creates posteriors, correlations, and ready-to-publish 
+plots automatically, and handles circular and eccentric orbits. It is capable of multi-planet fitting and handles 
+stellar limb darkening, systemic velocities for multiple instruments, and short and long cadence data, 
+and offers additional capabilities.</p>
+<h2><a href="https://github.com/oscaribv/tango">tango</a></h2>
+<p>Planets perform a gravitational TANGO around their host stars which is called orbit. 
+If the orbit inclination is close to 90°, the presence of a planet orbiting its host star can be inferred
+by detecting the periodic drops of stellar flux caused by the planet partly occulting the stellar disc. 
+This phenomenon is called transit. If we observe the transits caused by planets in stellar light curves 
+(flux vs time), we are able to decode the gravitational coreography and obtain planetary 
+and orbital properties of the system.</p>
+<p><center>
+<a href="https://arxiv.org/abs/1711.02097"><img src="/images/k2141.gif" alt="K2-141" width="300"/></a>
+<a href="https://arxiv.org/abs/1705.04163"><img src="/images/K2-106.gif" alt="K2-106" width="300"/></a>
+<a href="https://arxiv.org/abs/1802.09557"><img src="/images/gj9827.gif" alt="GJ9827" width="300"/></a>
+</center></p>
+<h2><a href="https://github.com/oscaribv/exotrending">exotrending</a></h2>
+<p><a href="http://ascl.net/1706.001"><img src="https://img.shields.io/badge/ascl-1706.001-blue.svg?colorB=262255" alt="ascl:1706.001" /></a></p>
+<p>The simple, straightforward Exotrending code detrends exoplanet transit light curves given a light curve (flux versus time) 
+and good ephemeris (epoch of first transit and orbital period). The code has been tested with
+ Kepler and K2 light curves and should work with any other light curve.</p>
+<h2><a href="https://github.com/oscaribv/thesis_chida">thesis chida</a></h2>  </div>
+</article>
+
+    <footer>
+<p>&copy; Oscar Barragán </p>
+<p>    Powered by <a href="http://getpelican.com" target="_blank">Pelican</a> - <a href="https://github.com/alexandrevicenzi/flex" target="_blank">Flex</a> theme by <a href="http://alexandrevicenzi.com" target="_blank">Alexandre Vicenzi</a>
+</p>    </footer>
+  </main>
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Blog",
+  "name": " Oscar Barragán's web page ",
+  "url" : "",
+  "image": "",
+  "description": ""
+}
+</script>
+
+</body>
+</html>
