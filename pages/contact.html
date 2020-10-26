@@ -8,13 +8,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="" />
 
-  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro|Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,700;1,400&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" type="text/css" href="/theme/stylesheet/style.min.css">
 
+    <link id="dark-theme-style" rel="stylesheet" type="text/css"
+          media="(prefers-color-scheme: dark)"
+    href="/theme/stylesheet/dark-theme.min.css">
 
+    <link id="pygments-dark-theme" rel="stylesheet" type="text/css"
+              media="(prefers-color-scheme: dark)"
+          href="/theme/pygments/vim.min.css">
     <link id="pygments-light-theme" rel="stylesheet" type="text/css"
-          href="/theme/pygments/github.min.css">
+              media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+          href="/theme/pygments/vim.min.css">
 
 
   <link rel="stylesheet" type="text/css" href="/theme/font-awesome/css/fontawesome.css">
@@ -55,7 +62,7 @@
   <title>Oscar Barragán's web page &ndash; Contact</title>
 
 </head>
-<body class="light-theme">
+<body >
   <aside>
     <div>
       <a href="">
@@ -92,7 +99,7 @@
               </li>
               <li>
                 <a target="_self"
-                   href="/index.html#home">
+                   href="/pages/home.html#home">
                   HOME
                 </a>
               </li>
@@ -139,11 +146,6 @@
               <i class="fab fa-flickr"></i>
             </a>
           </li>
-          <li>
-            <a  class="sc-instagram" href="https://www.instagram.com/oscaribv" target="_blank">
-              <i class="fab fa-instagram"></i>
-            </a>
-          </li>
       </ul>
     </div>
 
@@ -171,7 +173,7 @@
   <div>
 <ul>
 <li>
-<p>email 1: oscar.barraganvillanueva_at_physics.ox.ac.uk</p>
+<p>email 1: oscar.barragan_at_physics.ox.ac.uk</p>
 </li>
 <li>
 <p>email 2: oscaribv_at_gmail.com</p>
@@ -180,9 +182,17 @@
 </article>
 
     <footer>
-<p>&copy; Oscar Barragán </p>
+<p>&copy;  Oscar Barragán</p>
 <p>
 Built with <a href="http://getpelican.com" target="_blank">Pelican</a> using <a href="http://bit.ly/flex-pelican" target="_blank">Flex</a> theme
+  <span class="footer-separator">|</span>
+  Switch to the <a href="javascript:void(0)" onclick="theme.switch(`dark`)">dark</a> | <a href="javascript:void(0)" onclick="theme.switch(`light`)">light</a> | <a href="javascript:void(0)" onclick="theme.switch(`browser`)">browser</a> theme
+  <script id="dark-theme-script"
+          src="/theme/dark-theme/dark-theme.min.js"
+          data-enable-auto-detect-theme="True"
+          data-default-theme="light"
+          type="text/javascript">
+  </script>
 </p>    </footer>
   </main>
 
