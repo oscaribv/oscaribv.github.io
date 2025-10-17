@@ -6,7 +6,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://oscaribv.github.io/</loc>
-<lastmod>2025-05-20T13:48:36-00:00</lastmod>
+<lastmod>2025-10-17T17:43:52-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -42,7 +42,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://oscaribv.github.io/archives.html</loc>
-<lastmod>2025-05-20T13:48:36-00:00</lastmod>
+<lastmod>2025-10-17T17:43:52-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -56,42 +56,42 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://oscaribv.github.io/author/oscar-barragan.html</loc>
-<lastmod>2025-05-20T13:48:36-00:00</lastmod>
+<lastmod>2025-10-17T17:43:52-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://oscaribv.github.io/authors.html</loc>
-<lastmod>2025-05-20T13:48:36-00:00</lastmod>
+<lastmod>2025-10-17T17:43:52-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://oscaribv.github.io/categories.html</loc>
-<lastmod>2025-05-20T13:48:36-00:00</lastmod>
+<lastmod>2025-10-17T17:43:52-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://oscaribv.github.io/category/astroaventuras.html</loc>
-<lastmod>2025-05-20T13:48:36-00:00</lastmod>
+<lastmod>2025-10-17T17:43:52-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://oscaribv.github.io/category/exoplanets.html</loc>
-<lastmod>2025-05-20T13:48:36-00:00</lastmod>
+<lastmod>2025-10-17T17:43:52-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://oscaribv.github.io/category/tutorials.html</loc>
-<lastmod>2025-05-20T13:48:36-00:00</lastmod>
+<lastmod>2025-10-17T17:43:52-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -156,22 +156,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>https://oscaribv.github.io/pages/contact-es.html</loc>
-<lastmod>2017-12-02T00:00:00+00:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-<xhtml:link rel="alternate" hreflang="en" ref="https://oscaribv.github.io/pages/contact.html"/>
-</url>
-
-<url>
-<loc>https://oscaribv.github.io/pages/contact.html</loc>
-<lastmod>2017-12-02T00:00:00+00:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-<xhtml:link rel="alternate" hreflang="es" ref="https://oscaribv.github.io/pages/contact-es.html"/>
-</url>
-
-<url>
 <loc>https://oscaribv.github.io/pages/observatories-es.html</loc>
 <lastmod>2021-03-05T00:00:00+00:00</lastmod>
 <changefreq>monthly</changefreq>
@@ -228,42 +212,42 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://oscaribv.github.io/tag/astroaventuras.html</loc>
-<lastmod>2025-05-20T13:48:36-00:00</lastmod>
+<lastmod>2025-10-17T17:43:52-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://oscaribv.github.io/tag/exoplanets.html</loc>
-<lastmod>2025-05-20T13:48:36-00:00</lastmod>
+<lastmod>2025-10-17T17:43:52-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://oscaribv.github.io/tag/projects.html</loc>
-<lastmod>2025-05-20T13:48:36-00:00</lastmod>
+<lastmod>2025-10-17T17:43:52-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://oscaribv.github.io/tag/python.html</loc>
-<lastmod>2025-05-20T13:48:36-00:00</lastmod>
+<lastmod>2025-10-17T17:43:52-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://oscaribv.github.io/tag/tutorials.html</loc>
-<lastmod>2025-05-20T13:48:36-00:00</lastmod>
+<lastmod>2025-10-17T17:43:52-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://oscaribv.github.io/tags.html</loc>
-<lastmod>2025-05-20T13:48:36-00:00</lastmod>
+<lastmod>2025-10-17T17:43:52-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
